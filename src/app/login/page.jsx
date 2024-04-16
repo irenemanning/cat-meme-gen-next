@@ -48,7 +48,7 @@ function Login() {
       initialValues={initialValues} 
       onSubmit={handleLogin} 
       submitBtnText={"Login"} 
-      errors={errors}
+    //   errors={errors}
       />
       <p>
         Don't have an account?  

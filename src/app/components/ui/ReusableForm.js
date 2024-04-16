@@ -39,7 +39,7 @@ function ReusableForm({ fields, initialValues, onSubmit, submitBtnText, errors, 
             )}
             <button
                 type="submit"
-                className={`bg-gray-700 text-white px-4 py-2 rounded-md mt-4`}
+                className={`bg-black text-white px-4 py-2 rounded-md mt-4`}
             >
                 {submitBtnText}
             </button>
@@ -47,7 +47,7 @@ function ReusableForm({ fields, initialValues, onSubmit, submitBtnText, errors, 
                 <button
                 type="button"
                 onClick={cancel}
-                className='text-gray-600 ml-2'
+                className='bg-gray-700 text-white px-4 py-2 rounded-md mt-4'
                 >
                 Cancel
                 </button>
